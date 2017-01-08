@@ -11,7 +11,7 @@ setup(
     author_email='l@l.ca',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     entry_points={
-        'pandas.ext': [
+        'pandas._ext': [
             'koalas = koalas',
         ],
     },
